@@ -1,0 +1,5 @@
+SELECT TOP 1        SALARY * MONTHS,
+                    COUNT(NAME)
+FROM                EMPLOYEE
+GROUP BY            SALARY * MONTHS
+ORDER BY            SALARY * MONTHS DESC
